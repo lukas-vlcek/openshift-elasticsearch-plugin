@@ -1,0 +1,7 @@
+V	190712134357Z		01	unknown	/C=DE/L=Test/O=Test/OU=SSL/CN=node-0.example.com
+V	190712134404Z		02	unknown	/C=DE/L=Test/O=Test/OU=SSL/CN=node-1.example.com
+V	190712134410Z		03	unknown	/C=DE/L=Test/O=Test/OU=SSL/CN=node-2.example.com
+V	190712134416Z		04	unknown	/C=DE/L=Test/O=client/OU=client/CN=spock
+V	190712134423Z		05	unknown	/C=DE/L=Test/O=client/OU=client/CN=kirk
+V	190712134715Z		06	unknown	/C=DE/L=Test/O=Test/OU=SSL/CN=node-0.example.com
+V	190712134725Z		07	unknown	/C=DE/L=Test/O=Test/OU=SSL/CN=node-1.example.com

@@ -1,0 +1,39 @@
+# you can override this using by setting a system property, for example -Des.logger.level=DEBUG
+es.logger.level: INFO
+rootLogger: ${es.logger.level}, console
+logger:
+  # log action execution errors for easier debugging
+#  action: DEBUG
+
+  # deprecation logging, turn to DEBUG to see them
+#  deprecation: INFO
+
+#  org.apache.http: DEBUG
+
+  # gateway
+#  gateway: DEBUG
+#  index.gateway: DEBUG
+
+  # peer shard recovery
+  # indices.recovery: TRACE
+  # index.shard: TRACE
+
+  # discovery
+#  discovery: TRACE
+
+#  index.search.slowlog: TRACE
+#  index.indexing.slowlog: TRACE
+
+  com.floragunn.searchguard: DEBUG
+
+additivity:
+  index.search.slowlog: false
+  index.indexing.slowlog: false
+  deprecation: false
+
+appender:
+  console:
+    type: console
+    layout:
+      type: consolePattern
+      conversionPattern: "[%d{ISO8601}][%-5p][%-25c] %m%n"
